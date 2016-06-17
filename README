@@ -1,0 +1,16 @@
+Name:       Ugur Buyukdurak
+
+Notes About cache-sim:
+
+Extra credit is done using Least Frequently Used(LFU) replacement 
+algorithm. To make it work, each slot(each way in a set) has a counter
+associated with that way to count how many accesses occur to the way. When a 
+victim has to be chosen, victim is selected to be the one having 
+the least number of accessses in the corresponding set.
+Both replacements and hits increment the value that is used to keep track
+of Least Frequently Used way in the corresponding set. 
+
+Extra credit results are directly written to the standard output.
+Improvement in performance is obvious if there is 8 or 16 ways in a set.
+Significant performance improvement is observed with instructions 
+provided in trace1 and trace3 for caches that are either 8 or 16 ways.
