@@ -2,7 +2,7 @@
 #include "cache.h"
 #include "associative_cache.h"
 #include "full_asso_cache.h"
-
+					/*	Ugur Buyukdurak		*/
 ofstream o_file;
 
 void read_trace(const string);
